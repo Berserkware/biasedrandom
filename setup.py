@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
   name = 'biasedrandom',
   packages = ['biasedrandom'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'A python library for doing biased random based on random module',
   author = 'Caleb M',
   author_email = 'bersekware@gmail.com',
   url = 'https://github.com/Berserkware/biasedrandom',
-  download_url = 'https://github.com/Berserkware/biasedrandom/archive/refs/tags/v_01.tar.gz',
+  download_url = 'https://github.com/Berserkware/biasedrandom/archive/refs/tags/v_02.tar.gz',
   keywords = ['biased', 'random', 'python', 'biasedrandom'],
   install_requires=[],
   classifiers=[
