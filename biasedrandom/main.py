@@ -1,7 +1,4 @@
-#Code written by Caleb Mckay, 2022
-
 import random
-from datetime import datetime
 
 class biasedrandom():
     def brandrangenum(start: int, stop: int, biasednumbers: list, biaschance: int):
