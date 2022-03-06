@@ -1,7 +1,7 @@
 import random
 
 class biasedrandom():
-    def brandrangenum(start: int, stop: int, biasednumbers: list, biaschance: int):
+    def brandrangenum(self, start: int, stop: int, biasednumbers: list, biaschance: int):
         if biaschance > 100:
             raise ValueError('biaschance cannot be bigger that 100.')
 
@@ -18,7 +18,7 @@ class biasedrandom():
         else:
             return randomNumber
 
-    def dbrandrangemol(start: int, stop: int, biasmorethan: int, biaslessthan: int, biaschance: int):
+    def dbrandrangemol(self, start: int, stop: int, biasmorethan: int, biaslessthan: int, biaschance: int):
         if biaschance > 100:
             raise ValueError('biaschance cannot be bigger that 100.')
 
@@ -33,13 +33,13 @@ class biasedrandom():
         else:
             return randomNumber
 
-    def brandintnum(start: int, stop: int, biasednumbers: list, biaschance: int):
+    def brandintnum(self, start: int, stop: int, biasednumbers: list, biaschance: int):
         return brandrangenum(start, stop+1, biasednumbers, biaschance)
     
-    def brandintmol(start: int, stop: int, morethan: int, lessthan: int, biaschance: int):
+    def brandintmol(self, start: int, stop: int, morethan: int, lessthan: int, biaschance: int):
         return brandintmol(start, stop+1, morethan, lessthan, biaschance)
 
-    def bchoice(choices: list, biasedchoices: list, biaschance: int):
+    def bchoice(self, choices: list, biasedchoices: list, biaschance: int):
         if biaschance > 100:
             raise ValueError('biaschance cannot be bigger that 100.')
 
@@ -56,7 +56,7 @@ class biasedrandom():
         else:
             return choice
 
-    def bsample(sequence: list, size: int, biasedchoices: list, biaschance: int):
+    def bsample(self, sequence: list, size: int, biasedchoices: list, biaschance: int):
         if biaschance > 100:
             raise ValueError('chance cannot be bigger that 100.')
 
@@ -96,7 +96,7 @@ class biasedrandom():
 
         return sample
         
-    def brandom(biasednumbers: list, biaschance: int):
+    def brandom(self, biasednumbers: list, biaschance: int):
         if biaschance > 100:
             raise ValueError('biaschance cannot be bigger that 100.')
 
@@ -111,7 +111,7 @@ class biasedrandom():
         else:
             return randomNumber
 
-    def buniform(start: int, stop: int, biasednumbers: list, biaschance: int):
+    def buniform(self, start: int, stop: int, biasednumbers: list, biaschance: int):
         if biaschance > 100:
             raise ValueError('biaschance cannot be bigger that 100.')
 
