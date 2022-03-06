@@ -9,7 +9,7 @@ setup(
   author = 'Caleb M',
   author_email = 'bersekware@gmail.com',
   url = 'https://github.com/Berserkware/biasedrandom',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url = 'https://github.com/Berserkware/biasedrandom/archive/refs/tags/v_01.tar.gz',
   keywords = ['biased', 'random', 'python', 'biasedrandom'],
   install_requires=[],
   classifiers=[
