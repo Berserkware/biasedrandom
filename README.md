@@ -1,2 +1,2 @@
 # biasedrandom
-A python module for doing biased random in python based on the random module
+A python module for doing biased random based on the random module
