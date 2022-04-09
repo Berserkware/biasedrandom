@@ -6,6 +6,8 @@ setup(
   version = '0.2',
   license='MIT',
   description = 'A python library for doing biased random based on random module',
+  long_description=README,
+  long_description_content_type="text/markdown",
   author = 'Caleb M',
   author_email = 'bersekware@gmail.com',
   url = 'https://github.com/Berserkware/biasedrandom',
