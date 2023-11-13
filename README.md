@@ -1,11 +1,11 @@
+# NOTE: This module is deprecated and will no longer be maintained. I do not recommend using this module as the code is very amateur, and not very efficient.
+
 # biasedrandom
+
 A python module for doing biased random based on the random module.
 
 ## Quickstart:
-Installation with pip:
-```
-$ pip install biasedrandom
-```
+
 Add to python script:
 ```
 >>> import biasedrandom
